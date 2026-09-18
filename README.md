@@ -2,24 +2,15 @@
 
 Aplikasi berbasis web untuk pengelolaan informasi kegiatan warga dan media komunikasi antarwarga.
 
-## Status
+## Tentang Proyek
 
-Source code pada repository ini direkonstruksi dari laporan proyek akhir karena file project asli sudah tidak tersedia. Struktur dan isi kode mengikuti listing source code yang tercantum di laporan, dengan perapian format seperlunya akibat proses ekstraksi PDF.
+PopuLink merupakan aplikasi web yang dirancang untuk membantu warga dalam memperoleh informasi kegiatan, berkomunikasi, serta mengelola data kegiatan dalam satu platform.
 
-> Catatan: repository ini belum dijamin dapat langsung dijalankan karena file project asli seperti CSS, assets, dan dump database tidak tersedia.
+Aplikasi memiliki beberapa fitur yang mendukung kebutuhan warga dan admin, seperti pengelolaan kegiatan, galeri dokumentasi, ruang diskusi, dan statistik.
 
-## Teknologi
+## Fitur
 
-- PHP Native
-- MySQL
-- HTML, CSS, JavaScript
-- Bootstrap 5
-- Font Awesome
-- AOS (Animate On Scroll)
-
-## Fitur yang terdokumentasi
-
-- Halaman publik dan navigasi
+- Halaman publik
 - Login dan registrasi
 - Dashboard
 - Pengelolaan kegiatan
@@ -31,25 +22,30 @@ Source code pada repository ini direkonstruksi dari laporan proyek akhir karena 
 - Role warga dan admin
 - CRUD data
 
-## Struktur
+## Teknologi
+
+- PHP Native
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- Bootstrap 5
+- Font Awesome
+- AOS (Animate On Scroll)
+
+## Struktur Proyek
 
 ```text
-PopuLink-Reconstructed/
+PopuLink/
 ├── config/
 │   └── koneksi.php
+├── features/
+│   ├── galeri.php
+│   ├── informasi_kegiatan.php
+│   └── diskusi.php
 ├── index.php
 ├── login.php
 ├── register.php
 ├── dashboard.php
 ├── kegiatan.php
-├── statistik.php
-├── profile.php
-└── features/
-    ├── galeri.php
-    ├── informasi_kegiatan.php
-    └── diskusi.php
-```
-
-## Sumber
-
-Laporan Proyek Akhir Praktikum Pemrograman Web, 2025.
+└── statistik.php
