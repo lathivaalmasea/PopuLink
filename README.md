@@ -33,6 +33,14 @@ Aplikasi memiliki beberapa fitur yang mendukung kebutuhan warga dan admin, seper
 - Font Awesome
 - AOS (Animate On Scroll)
 
+## Status Proyek
+
+Repository ini berisi rekonstruksi source code PopuLink berdasarkan listing program yang terdapat dalam laporan proyek akhir.
+
+Struktur dan kode disusun kembali dari dokumentasi proyek dengan perapian format seperlunya akibat proses ekstraksi dari PDF.
+
+> Catatan: Repository ini belum dijamin dapat langsung dijalankan karena beberapa file pendukung dari project asli, seperti CSS, assets, dan database, tidak tersedia.
+
 ## Struktur Proyek
 
 ```text
@@ -43,12 +51,20 @@ PopuLink/
 │   ├── galeri.php
 │   ├── informasi_kegiatan.php
 │   └── diskusi.php
+├── screenshots/
+│   ├── landing-page.png
+│   ├── login.png
+│   ├── dashboard.png
+│   ├── galeri.png
+│   ├── diskusi.png
+│   └── statistik.png
 ├── index.php
 ├── login.php
 ├── register.php
 ├── dashboard.php
 ├── kegiatan.php
-└── statistik.php
+├── statistik.php
+└── profile.php
 
 ```
 
