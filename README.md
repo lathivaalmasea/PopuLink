@@ -49,3 +49,31 @@ PopuLink/
 ├── dashboard.php
 ├── kegiatan.php
 └── statistik.php
+
+```
+
+## Tampilan Aplikasi
+
+### Landing Page
+
+![Landing Page](screenshots/landing-page.png)
+
+### Login
+
+![Login](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Galeri
+
+![Galeri](screenshots/galeri.png)
+
+### Ruang Diskusi
+
+![Ruang Diskusi](screenshots/diskusi.png)
+
+### Statistik
+
+![Statistik](screenshots/statistik.png)
